@@ -136,16 +136,16 @@ const Hero = () => {
             A passionate designer and developer focused on creating meaningful digital experiences. I'm a fast learner with a creative soul, ready to build the future.
           </p>
           
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4">
             <a 
               href="#projects" 
-              className="px-8 py-4 rounded-xl bg-accent-orange text-white font-bold flex items-center gap-2 hover:scale-105 transition-transform glow-orange"
+              className="px-8 py-4 rounded-xl bg-accent-orange text-white font-bold flex items-center justify-center sm:justify-start gap-2 hover:scale-105 transition-transform glow-orange w-full sm:w-auto"
             >
               View Projects <ChevronRight size={20} />
             </a>
             <a 
               href="#contact" 
-              className="px-8 py-4 rounded-xl glass text-white font-bold hover:bg-white/10 transition-all"
+              className="px-8 py-4 rounded-xl glass text-white font-bold hover:bg-white/10 transition-all w-full sm:w-auto text-center"
             >
               Contact Me
             </a>
