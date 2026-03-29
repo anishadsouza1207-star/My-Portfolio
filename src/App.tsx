@@ -217,7 +217,7 @@ const About = () => {
             <h2 className="text-4xl font-display font-bold">About <span className="text-accent-orange">Me</span></h2>
             <div className="h-1 w-20 bg-accent-orange rounded-full" />
             <p className="text-white/70 text-lg leading-relaxed">
-              I am a 2026 undergraduate from <span className="text-white font-semibold">SIES College, Nerul</span>, with a degree in <span className="text-white font-semibold">BSc IT</span>. My journey in technology is driven by a passion for blending technical efficiency with creative design.
+              I am a 2026 graduate from <span className="text-white font-semibold">SIES College, Nerul</span>, with a degree in <span className="text-white font-semibold">BSc IT</span>. My journey in technology is driven by a passion for blending technical efficiency with creative design.
             </p>
             <p className="text-white/70 text-lg leading-relaxed">
               With a background in IT and a 3-month internship in UI/UX design, I've developed a keen eye for detail and a user-centric approach to problem-solving. I thrive in environments that challenge my creativity and adaptability.
