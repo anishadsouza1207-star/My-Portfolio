@@ -156,18 +156,18 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="relative hidden md:block"
+          className="relative"
         >
           <div className="relative z-10 w-full aspect-square rounded-3xl overflow-hidden glass p-4">
             <div className="w-full h-full rounded-2xl overflow-hidden border border-white/5 relative group">
               <img 
-                src="attachment/input_file_0.png" 
+                src="/images/mypic.jpeg" 
                 alt="Anisha D'souza" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   if (!target.src.includes('picsum')) {
-                    target.src = 'https://picsum.photos/seed/anisha/800/1000';
+                    target.src = '/images/mypic.jpeg';
                   }
                 }}
               />
@@ -395,7 +395,7 @@ const Projects = () => {
       name: 'Smart Timetable App',
       desc: 'An AI-powered smart timetable application designed to optimize student schedules efficiently.',
       tools: ['AI', 'Web Dev', 'Planning'],
-      image: 'attachment/input_file_2.png',
+      image: '/images/smart.jpeg',
       fallback: 'https://picsum.photos/seed/timetable/800/600',
       link: 'https://anishadsouza1207-star.github.io/smart-timetable-app/'
     },
@@ -403,7 +403,7 @@ const Projects = () => {
       name: 'Crochet Blossoms',
       desc: 'A beautiful business website built for a crochet brand, showcasing handmade products and brand story.',
       tools: ['Canva', 'Web Design', 'Branding'],
-      image: 'attachment/input_file_1.png',
+      image: '/images/crochet.jpeg',
       fallback: 'https://picsum.photos/seed/crochet/800/600',
       link: 'https://crochetblossoms.my.canva.site/'
     },
@@ -411,7 +411,7 @@ const Projects = () => {
       name: 'Personal Portfolio Website',
       desc: 'A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion.',
       tools: ['React', 'Tailwind', 'Motion'],
-      image: 'attachment/input_file_3.png',
+      image: '/images/port.jpeg',
       fallback: 'https://picsum.photos/seed/portfolio/800/600',
       link: '#'
     }
