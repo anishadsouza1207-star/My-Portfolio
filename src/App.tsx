@@ -413,7 +413,7 @@ const Projects = () => {
       tools: ['React', 'Tailwind', 'Motion'],
       image: '/images/port.jpeg',
       fallback: 'https://picsum.photos/seed/portfolio/800/600',
-      link: '#'
+      link: 'https://www.github.com'
     }
   ];
 
@@ -453,12 +453,12 @@ const Projects = () => {
                     }
                   }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none md:pointer-events-auto">
                   <a 
                     href={project.link} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="px-6 py-3 bg-white text-black font-bold rounded-full flex items-center gap-2 transform translate-y-0 md:translate-y-4 md:group-hover:translate-y-0 transition-transform"
+                    className="px-6 py-3 bg-white text-black font-bold rounded-full flex items-center gap-2 transform translate-y-0 md:translate-y-4 md:group-hover:translate-y-0 transition-transform pointer-events-auto"
                   >
                     View Project <ExternalLink size={18} />
                   </a>
